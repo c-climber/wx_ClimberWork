@@ -1,0 +1,71 @@
+.keyboard{
+  width: 100vw;
+}
+.key-rows{ 
+  display:flex;
+  width: 100vw;
+}
+.key{
+  width: 25vw;
+}
+.key button{
+  margin: 1vh 1vw;
+  height:8.6vh;
+  line-height:8.6vh;
+}
+.screen{
+  width: 98vw;
+  height:40vh;
+  margin: 1vh 1vw;
+  padding: 1vh 1.4vw;
+  border:1px solid #353535;
+  box-sizing:border-box;
+  border-radius:4px;
+}
+.screen button{
+  text-align:right;
+  margin: 0;
+  line-height:7vh;
+  height:7vh;
+  border:none;
+  color: gainsboro;
+  font-size:6vw; 
+}
+.screen .current{
+  color: black;
+  font-size:7vw; 
+}
+/*mask*/  
+.toast_mask {  
+  opacity: 0;  
+  width: 100%;  
+  height: 100%;  
+  overflow: hidden;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  z-index: 888;  
+}  
+/*toast*/  
+.toast_content_box {  
+  display: flex;  
+  width: 100%;  
+  height: 100%;  
+  justify-content: center;  
+  align-items: center;  
+  position: fixed;  
+  z-index: 999;  
+}  
+.toast_content {  
+  width: 50%;  
+  padding: 20rpx;  
+  background: rgba(0, 0, 0, 0.5);  
+  border-radius: 20rpx;  
+}  
+.toast_content_text {  
+  height: 100%;  
+  width: 100%;  
+  color: #ffcc00;  
+  font-size: 28rpx;  
+  text-align: center;  
+}  
